@@ -53,7 +53,7 @@ class EventBrite:
         return price
 
 
-eventbrite =  EventBrite("ULYD2Y7RZ3VEZEFBZEJK")
+eventbrite =  EventBrite(["YOUR AUTHENTICATION TOKEN"])
 
 events = eventbrite.getEvents()
 
